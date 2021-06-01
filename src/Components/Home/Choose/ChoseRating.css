@@ -2,7 +2,7 @@
     width: 50%;
     height: 200px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .yoga {
         width: 30%;
         height: 200px;

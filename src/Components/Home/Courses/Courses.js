@@ -15,7 +15,7 @@ const Courses = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:5055/courses`;
+    const url = `https://desolate-springs-66408.herokuapp.com/courses`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setCourses(data));

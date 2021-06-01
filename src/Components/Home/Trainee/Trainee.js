@@ -24,7 +24,7 @@ const Trainee = () => {
   };
 
   useEffect(() => {
-    const url = `http://localhost:5055/comments`;
+    const url = `https://desolate-springs-66408.herokuapp.com/comments`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setComment(data));

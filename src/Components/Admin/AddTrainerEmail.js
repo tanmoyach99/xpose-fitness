@@ -11,7 +11,7 @@ const AddTrainerEmail = () => {
     const eventData = {
       email: data.email,
     };
-    const url = `http://localhost:5055/addTrainerEmail`;
+    const url = `https://desolate-springs-66408.herokuapp.com/addTrainerEmail`;
     fetch(url, {
       method: "POST",
       headers: {

@@ -7,7 +7,7 @@ const ManageService = () => {
   const [courses, setCourses] = useContext(CourseContext);
 
   useEffect(() => {
-    const url = `http://localhost:5055/courses`;
+    const url = `https://desolate-springs-66408.herokuapp.com/courses`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -18,7 +18,7 @@ const ManageService = () => {
 
   const handleDeleteButton = (id) => {
     console.log(id);
-    fetch(`http://localhost:5055/deleteCourses/${id}`, {
+    fetch(`https://desolate-springs-66408.herokuapp.com/deleteCourses/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

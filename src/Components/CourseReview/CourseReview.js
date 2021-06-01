@@ -14,7 +14,7 @@ const CourseReview = () => {
       title: data.title,
       description: data.description,
     };
-    const url = `http://localhost:5055/addComments`;
+    const url = `https://desolate-springs-66408.herokuapp.com/addComments`;
     fetch(url, {
       method: "POST",
       headers: {

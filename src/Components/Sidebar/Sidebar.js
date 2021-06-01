@@ -17,7 +17,7 @@ const Sidebar = () => {
   console.log(loggedInUser.name);
 
   useEffect(() => {
-    const url = `http://localhost:5055/isTrainer`;
+    const url = `https://desolate-springs-66408.herokuapp.com/isTrainer`;
     fetch(url, {
       method: "POST",
       headers: { "content-type": "application/json" },

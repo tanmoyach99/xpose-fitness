@@ -8,7 +8,7 @@ import Bounce from "react-reveal/Bounce";
 const Trainers = () => {
   const [trainer, setTrainer] = useState([]);
   useEffect(() => {
-    const url = `http://localhost:5055/trainers`;
+    const url = `https://desolate-springs-66408.herokuapp.com/trainers`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTrainer(data));

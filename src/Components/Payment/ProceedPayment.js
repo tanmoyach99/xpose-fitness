@@ -18,7 +18,7 @@ const ProceedPayment = () => {
   const [orderData, setOrderData] = useState("");
 
   useEffect(() => {
-    const url = `http://localhost:5055/courses`;
+    const url = `https://desolate-springs-66408.herokuapp.com/courses`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setCourses(data));
@@ -45,7 +45,7 @@ const ProceedPayment = () => {
       paymentId,
       orderTime: new Date(),
     };
-    const url = `http://localhost:5055/addOrder`;
+    const url = `https://desolate-springs-66408.herokuapp.com/addOrder`;
     fetch(url, {
       method: "POST",
       headers: {

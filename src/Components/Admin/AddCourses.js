@@ -16,7 +16,7 @@ const AddCourses = () => {
       imageURL: imageURL,
       price: data.price,
     };
-    const url = `http://localhost:5055/addCourses`;
+    const url = `https://desolate-springs-66408.herokuapp.com//addCourses`;
     fetch(url, {
       method: "POST",
       headers: {
