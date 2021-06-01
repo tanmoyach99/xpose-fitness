@@ -1,0 +1,25 @@
+
+.gym-brand{
+    background: linear-gradient(to right, #E8799B 0%, #B967CE 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gym-brand-btn{
+    border: 2px solid #b967ce;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+}
+.gym-brand-btn:hover{
+    color: aliceblue;
+    font-weight: 600;
+    background: linear-gradient(to right,#E8799B 0%, #B967CE 100%);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+  
+  

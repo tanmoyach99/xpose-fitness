@@ -1,0 +1,22 @@
+.header-bg{
+    background-image: url('../../../../images/Straker-0844.jpg');
+    height: 900px;
+}
+.gym-brand{
+    background: linear-gradient(to left, #E8799B 0%, #B967CE 80%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    
+}
+.header-banner img{
+    height: 825px;
+}
+@media(max-width:768px){
+   .header-bg{
+       height: 1200px;   
+   }
+   .header-banner img {
+       height: 425px;
+   }
+
+}

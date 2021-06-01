@@ -1,0 +1,11 @@
+.yoga{
+    width: 50%;
+    height: 200px;
+}
+@media (max-width: 600px) {
+    .yoga {
+        width: 30%;
+        height: 200px;
+    }
+
+}

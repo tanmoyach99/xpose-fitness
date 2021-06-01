@@ -1,0 +1,11 @@
+
+.explore-container{
+    height: 650px;
+}
+@media (max-width: 768px){
+    .explore-container {
+        height: 1200px;
+    }
+
+}
+

@@ -1,0 +1,45 @@
+.course-card{
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.course-card:hover {
+    background-color: lightgray;
+    
+}
+.blur:hover{
+    -webkit-filter: blur(5px);
+}
+.buy-card{
+    display: none;
+    position: absolute;
+    margin-left: 60px;
+
+    
+}
+.course-card:hover .buy-card{
+    display: table-cell;
+}
+.buy-btn{
+    background-color:  #b967ce;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: aliceblue;
+}
+@media (max-width: 768px){
+    .buy-card {
+        display: none;
+        position: absolute;
+        margin-left: 30px;
+    }
+    .buy-btn {
+        background-color: #b967ce;
+        font-weight: 600;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        color: aliceblue;
+    }
+
+}

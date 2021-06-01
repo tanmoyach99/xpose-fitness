@@ -1,0 +1,38 @@
+.paginationBtn {
+    width: 50%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBtn a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid mediumorchid;
+    color: mediumorchid;
+    cursor: pointer;
+  }
+  
+  .paginationBtn a:hover {
+    color: white;
+    background-color: mediumorchid;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: mediumorchid;
+  }
+ 
+
+  .comment-section {
+    height: 700px;
+    background-color: lightgrey;
+  }
+  @media (max-width: 768px){
+    
+    .comment-section{ height:1400px}
+  }
+  
+  

@@ -1,0 +1,28 @@
+.footer{
+    background: url("../../../images/footerBackground.png");
+ background-repeat: no-repeat;
+ background-size: 1600px 450px;
+    
+
+
+
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+@media(max-width:768px){
+    .footer {
+        background: url("../../../images/footerBackground.png");
+        background-repeat: no-repeat;
+        background-size: 1600px 1200px;
+
+
+
+
+
+    }
+
+}
